@@ -1,0 +1,108 @@
+1 2 3
+
+row / column = 0 / 1 = 1
+row / column = 0 / 2 = 2
+row / column = 0 / 3 = 3
+4 5 6
+
+row / column = 1 / 1 = 4
+row / column = 1 / 2 = 5
+row / column = 1 / 3 = 6
+
+
+7 8
+
+row / column = 0 / 1 = 7
+row / column = 0 / 2 = 8
+9 10
+
+row / column = 1 / 1 = 9
+row / column = 1 / 2 = 10
+11 12
+
+row / column = 2 / 1 = 11
+row / column = 2 / 2 = 12
+
+
+input arrays of size A[2][3], B[3][2]
+about to set matrices
+finding length / width
+A
+1 2 3
+4 5 6
+B
+7 8
+9 10
+11 12
+A[2][3] B[3][2]
+A[0][0] = 1 A[0][1] = 2 A[0][2] = 3
+A[1][0] = 4 A[1][1] = 5 A[1][2] = 6
+24 25
+26 27
+28 29
+value at A[0][0] = 1
+value at B[0][1] = 8
+value at A[0][1] = 2
+value at B[1][1] = 10
+value at A[0][2] = 3
+value at B[2][1] = 12
+multiplying matrix A row 0 by matrix B column 1, result = 64
+output value at C[0][1] = 64
+A[0][0] = 1 A[0][1] = 2 A[0][2] = 3
+A[1][0] = 4 A[1][1] = 5 A[1][2] = 6
+24 25
+26 27
+28 29
+value at A[1][0] = 4
+value at B[0][1] = 8
+value at A[1][1] = 5
+value at B[1][1] = 10
+value at A[1][2] = 6
+value at B[2][1] = 12
+multiplying matrix A row 1 by matrix B column 1, result = 154
+output value at C[1][1] = 154
+A[0][0] = 1 A[0][1] = 2 A[0][2] = 3
+A[1][0] = 4 A[1][1] = 5 A[1][2] = 6
+24 25
+26 27
+28 29
+value at A[0][0] = 1
+value at B[0][0] = 7
+value at A[0][1] = 2
+value at B[1][0] = 9
+value at A[0][2] = 3
+value at B[2][0] = 11
+multiplying matrix A row 0 by matrix B column 0, result = 58
+output value at C[0][0] = 58
+A[0][0] = 1 A[0][1] = 2 A[0][2] = 3
+A[1][0] = 4 A[1][1] = 5 A[1][2] = 6
+24 25
+26 27
+28 29
+value at A[1][0] = 4
+value at B[0][0] = 7
+value at A[1][1] = 5
+value at B[1][0] = 9
+value at A[1][2] = 6
+value at B[2][0] = 11
+multiplying matrix A row 1 by matrix B column 0, result = 139
+output value at C[1][0] = 139
+A[0][0] = 1 should be = 1 at iteration 0/0 set address 0x7fa6f5461000 to 1
+A[0][1] = 2 should be = 2 at iteration 0/1 set address 0x7fa6f5461001 to 2
+A[0][2] = 3 should be = 3 at iteration 0/2 set address 0x7fa6f5461002 to 3
+
+A[1][0] = 3 should be = 4 at iteration 1/0 set address 0x7fa6f5461003 to 4
+A[1][1] = 4 should be = 5 at iteration 1/1 set address 0x7fa6f5461004 to 5
+A[1][2] = 5 should be = 6 at iteration 1/2 set address 0x7fa6f5461005 to 6
+
+7 at iteration 0/0 set address 0x7fa6f5461000 to 7
+8 at iteration 0/1 set address 0x7fa6f5461001 to 8
+
+9 at iteration 1/0 set address 0x7fa6f5461002 to 9
+10 at iteration 1/1 set address 0x7fa6f5461003 to 10
+
+11 at iteration 2/0 set address 0x7fa6f5461004 to 11
+12 at iteration 2/1 set address 0x7fa6f5461005 to 12
+
+58 64
+139 154
