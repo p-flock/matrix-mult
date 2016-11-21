@@ -35,8 +35,8 @@ main (void) {
         char line[MAX_BUFFER];
         char *token;
 
-        if (is_first_row == 1)
-            printf("enter input array number %d:\n", num_inputs);
+        /*if (is_first_row == 1)*/
+            /*printf("enter input array number %d:\n", num_inputs);*/
         fgets(line, MAX_LINE, stdin);
         /*printf("%s\n", line);*/
         if (strcmp(line, "\n") == 0) {
