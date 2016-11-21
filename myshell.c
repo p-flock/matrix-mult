@@ -215,7 +215,6 @@ int err;
 int pipearr[2];
 int pipes[4];
 int status;
-printf("input type: %d\n",inputType);
 switch(inputType){
 case 0:
 	fk = fork();
